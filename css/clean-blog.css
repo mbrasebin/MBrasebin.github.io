@@ -8,7 +8,6 @@ body {
   font-size: 20px;
   color: #212529;
   font-family: 'Lora', 'Times New Roman', serif;
-
  }
 
 p {
@@ -20,6 +19,15 @@ p {
   p a {
     text-decoration: underline; }
 
+
+.mycontent-left {
+  border-right: 1px solid #f33333;
+}
+
+.row{
+padding:10px
+}
+
 p::first-letter {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size:3.5em;
@@ -27,6 +35,19 @@ p::first-letter {
   float:left;
   color:#f33333;
 }
+
+.li-align {
+   text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.li-align >a {
+      text-decoration: underline;
+}
+
+
+
 
 .no-bullet{
 list-style-type: none;
@@ -46,6 +67,12 @@ h6 {
   color:#f33333;
 padding:20px;
 }
+
+
+.textcolorred{
+  color: #f23333;
+}
+
 
 a {
   color: #f23333;
