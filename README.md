@@ -1,6 +1,6 @@
 # [MBrasebin.github.io]
 
-Personnal webpage of Mickaël Brasebin, 3D GIS researcher [(https://mbrasebin.github.io](https://mbrasebin.github.io/)
+Personnal webpage of Mickaël Brasebin, 3D GIS researcher [https://mbrasebin.github.io](https://mbrasebin.github.io/)
 
 ## Theme
 
