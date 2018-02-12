@@ -76,6 +76,15 @@ padding:20px;
 }
 
 
+
+.cvpolice{
+ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  color: #ffffff;
+  font-size: 25px;
+  font-style: bold;
+}
+
+
 a {
   color: #f23333;
   -webkit-transition: all 0.2s;
