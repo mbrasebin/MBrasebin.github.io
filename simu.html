@@ -55,7 +55,7 @@
             <a class="nav-link" href="code.html">Dépôts des codes de recherche</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="gallerie.html">Gallerie</a>
+            <a class="nav-link" href="galerie.html">Galerie</a>
           </li>
         </ul>
       </div>
@@ -84,8 +84,8 @@
         <h2> Simulation de l’extension urbaine pour l’aide à l’assistance aux politiques publiques</h2>
         <p class="post-preview post-meta">
           La ville évolue et son évolution est régie par un ensemble de documents d'aménagement. L'évaluation de l'influence de ces documents d'aménagement est un enjeu important pour garantier un meilleur développement de la ville. À l'échelle locale, le PLU (Plan
-          Local d'Urbanisme) définit la constructibilité à l'échelle de la parcelle à travers un ensemble 3D de contraintes notamment morpologique (Par exemple, hauteur maximale d'un bâtiment, densité maximale, etc.). La simulation des PLU permet de donner
-          une évaluation de la constructibilité à l'échelle de la parcelle et peut permettre d'assister son concepteur afin de déterminer les paramètres de règles les plus adaptés et de détecter d'éventuels effets de bord.
+          Local d'Urbanisme) définit la constructibilité à l'échelle de la parcelle à travers un ensemble 3D de contraintes notamment morphologiques (Par exemple, hauteur maximale d'un bâtiment, recul à la voirie, etc.). La simulation des PLU permet de donner
+          une évaluation de la constructibilité à l'échelle de la parcelle. Ce résultat peut être utilisé pour de nombreuses applications comme l'aide à la conception de PLU, l'assistance à la concertation ou l'évaluation de potentiels fonciers.
 
           <br /> À travers mes travaux de recherche, j'ai proposé différentes méthodes d'évaluation de la constructibilité. Ces évaluations proposent des formes bâties qui donnent une indication sur le potentiel constructible. Il s'agit d'une information
           statique que j'ai été amené à coupler avec des simulateurs d'évolutions urbaines afin de proposer des systèmes permettant de simuler une évoloution multi-échelle des territoires et de fournir des outils permettant l'assistance à la rédaction
@@ -98,7 +98,7 @@
             </li>
             <li class="li-align">Simulation des évolutions territoriales multi-échelles</li>
           </ul>
-
+          Une vidéo reprenant une partie de ces résultats et de leurs exploitations est disponible <a href="https://youtu.be/kLP-1g_uAVo?t=4m12s">ici</a>.
 
         </p>
 
@@ -121,10 +121,10 @@
     <div class="row">
       <div class="col-12">
         <p class="post-preview post-meta">
-          Une première proposition est la génération d'enveloppes constructibles. Ces enveloppes représentent le plus gros volume théoriquement constructibile à partir des règles morphologiques du PLU. Tout bâtiment inclus dans cette enveloppe respecte les règles
-          qui ont permis sa génénration. Ce type d'approche peut être utile pour l'assistance aux architectes ou l'aide à l'instruction de permis de construire.
+          Une première proposition est la génération d'enveloppes constructibles. Ces enveloppes représentent le plus gros volume théoriquement constructible à partir des règles morphologiques du PLU. Tout bâtiment inclus dans cette enveloppe respecte les règles
+          qui ont permis leur génération. Ce type d'approche peut être utile pour l'assistance aux architectes ou l'aide à l'instruction de permis de construire.
 
-          <br /> L'enveloppe est générée grâce aux opérateurs géométriques 3D et un démonstrateur est disponible sur le dépôt Gihtub <a href="https://github.com/IGNF/geoxygene-sig3d-appli">  d'applications de GeOxygene 3D</a>.
+          <br /> L'enveloppe est générée grâce aux opérateurs géométriques 3D et un démonstrateur est disponible sur le dépôt Gihtub <a href="https://github.com/SimPLU3D/3DBuildableHull"> 3DBuildableHull</a>.
 
       </div>
 
@@ -143,7 +143,7 @@
                 </span>
               </a></li>
 
-          <li class="li-align">Brasebin, M., Perret, J. and Haëck C.(2011) <span class="textcolorred">Towards a 3D geographic information system for the exploration of urban rules: application to the French local urban planning schemes</span>, 28th urban data management symposium
+          <li class="li-align">Brasebin, M., Perret, J. and Haëck C. (2011) <span class="textcolorred">Towards a 3D geographic information system for the exploration of urban rules: application to the French local urban planning schemes</span>, 28th urban data management symposium
             (UDMS 2011)<a href="https://www.researchgate.net/publication/235792249_Towards_a_3D_geographic_information_system_for_the_exploration_of_urban_rules_Application_to_the_French_local_urban_planning_schemes"><span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
@@ -162,7 +162,7 @@
 
     <div class="row">
       <div class="col-md-12 col-xs-12 mx-auto">
-        <h2>Génération d'enveloppes constructibles</h2>
+        <h2>Simulation de formes bâties</h2>
 
       </div>
     </div>
@@ -171,10 +171,10 @@
       <div class="col-12">
         <p class="post-preview post-meta">
           Comme les enveloppes constructibles, ne représentent pas des bâtiments et ne permettent pas d'intégrer certaines règles d'urbanisme, mon travail de thèse a visé à concevoir une méthode permettant la génération de formaes bâties à partir de règlements
-          de PLU. Mes contributions principales sont : la modélisation du règlements d'urbanisme et des éléments géomgraphiques associés, ainsi qu'une méthode de génération de formes bâties. Cette méthode se base sur une technique d'optimisation multi-dimensionnelle
+          de PLU. Mes contributions principales sont : la modélisation du règlement d'urbanisme et des éléments géomgraphiques associés, ainsi qu'une méthode de génération de formes bâties. Cette méthode se base sur une technique d'optimisation multi-dimensionnelle
           qui vise à proposer une forme composée d'un certain nombre d'objets paramétriques. Le système détermine à la fois le nombre de ces objets (ce qui permet de modéliser des formes plus ou moins complexes), mais également leurs emplacements et dimensions.
           Cette méthode peut aider à la conception de PLU en testant différents scénarios ou à l'évaluation de la constructibilité.
-          <br /> Le résultat de ce travail est déposé en OpenSource comme le projet <a href="https://github.com/IGNF/simplu3D"> SimPLU3D </a>.
+          <br /> Le résultat de ce travail est déposé en OpenSource comme le projet <a href="https://github.com/SimPLU3D/simplu3D"> SimPLU3D </a>.
 
       </div>
 
@@ -208,7 +208,7 @@
 
       </div>
       <div class="col-6">
-        <img class="img-responsive center-block" src="img/SimPLU_Configuration_batie.png" alt=""> <br> Génération avec un même jeu de paramètres de différentes parcelles
+        <img class="img-responsive center-block" src="img/SimPLU_Configuration_batie.png" alt=""> <br> Génération de formes bâties avec un même jeu de paramètres sur différentes parcelles
       </div>
     </div>
 
@@ -225,14 +225,14 @@
     <div class="row">
       <div class="col-12">
         <p class="post-preview post-meta">
-          Le nombre de paramètres nécesaires à la description d'un PLU étant très important, il n'est pas envisageable de tester l'ensemble des valeurs possibles pour choisir le meilleur scénario. Afin de produire des outils opérationnels, il est nécsesaire de
-          mettre en place des stratégies d'exploration pour sélectioner un ensemble de scénarios d'intérêt. En partenariat avec l'<a href="https://iscpif.fr/">Instut des Systèmes Complexes Paris-Ile de France<a>, nous concevons une plateforme (<a href="https://simplu.openmole.org/">dont le resultat est testable en ligne</a>)
+          Le nombre de paramètres nécesaires à la description d'un PLU étant très important, il n'est pas envisageable de tester l'ensemble des valeurs possibles pour choisir le meilleur scénario. Afin de produire des outils opérationnels, il est nécessaire de
+          mettre en place des stratégies d'exploration pour sélectioner un ensemble de scénarios d'intérêt. En partenariat avec l'<a href="https://iscpif.fr/">Instut des Systèmes Complexes Paris-Ile de France<a>, nous concevons une plateforme (<a href="https://simplu.openmole.org/">dont le démonstrateur est testable en ligne</a>)
           qui permet de réaliser cela. Des expérimentations sont en cours avec des collectivités pour implémenter des problématiques réelles dans ce système.
 
 
           <br /> Les résultats simulés sont produits grâce au couplage entre SimPLU3D et la plateforme d'exploration de modèles <a href="https://www.openmole.org/">OpenMole</a>. Les scripts développés et les données sont disponibles dans le projet
           <a
-            href="https://github.com/IGNF/simplu3D-openmole"> SimPLU3D-OpenMole </a>.
+            href="https://github.com/SimPLU3D/simplu3D-openmole"> SimPLU3D-OpenMole </a>.
 
       </div>
 
